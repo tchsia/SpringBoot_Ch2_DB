@@ -3,8 +3,8 @@ package com.example.demo.entiry;
 import javax.persistence.*;
 
 @Entity
-//@Table(name = "department")
-public class Department {
+//@Table(name = "role")
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
